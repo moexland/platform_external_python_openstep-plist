@@ -1,0 +1,14 @@
+package {
+    default_applicable_licenses: ["external_python_openstep-plist_license"],
+}
+
+license {
+    name: "external_python_openstep-plist_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-MIT",
+    ],
+    license_text: [
+        "LICENSE",
+    ],
+}

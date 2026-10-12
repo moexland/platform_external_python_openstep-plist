@@ -1,0 +1,17 @@
+name: "openstep-plist"
+description: "ASCII plist parser written in Cython"
+third_party {
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 10
+    day: 12
+  }
+  homepage: "https://github.com/fonttools/openstep-plist"
+  identifier {
+    type: "Git"
+    value: "https://github.com/fonttools/openstep-plist"
+    version: "b374321260e8bb1a17bd28010c0ea47830fab505"
+    closest_version: "v0.5.2"
+  }
+}

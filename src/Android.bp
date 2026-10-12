@@ -1,0 +1,10 @@
+package {
+    default_applicable_licenses: ["external_python_openstep-plist_license"],
+}
+
+python_library_host {
+    name: "py-openstep-plist",
+    srcs: [
+        "openstep_plist/**/*.py",
+    ],
+}
